@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+
+}
+.container .topo {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.container .topo .esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .topo .direita {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container .topo .direita .menu {
+    display: flex;
+    gap: 20px;
+}
+.container .topo .direita .menu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+.container .topo .direita .icone {
+    font-size: 20px;
+
+}
+.container .meio {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.container .meio .esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .meio .direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .meio .direita .info{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 30px;
+}
+.container .meio .direita .info p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#btn-1 {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#btn-2 {
+    width: 200px;
+    height: 50px;
+    background: none;
+    color: blue;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn-1:hover{
+    cursor: pointer;
+    transition: all 300ms ease;
+    background-color: rgb(11, 11, 114);
+}
+
+#btn-2:hover{
+    cursor: pointer;
+    border: 1px solid blue;
+    transition: all 300ms ease;
+}
+
+.container .fim {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+}
+.fim .redes {
+    width: 50%;
+    height: 100%;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center; 
+}
+.container .fim .redes p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.container .fim .redes .icones{
+    padding-right: 15px;
+    font-size: 20px;
+
+
+}
+.container .fim .redes .icones a{
+    color: black;
+    text-decoration: none;
+}
