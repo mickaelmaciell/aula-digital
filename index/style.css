@@ -114,3 +114,18 @@ body {
     background-color: #58af9c;
     color: white;
 }
+
+@media (max-width: 640px) {
+    .container .esquerdo {
+        display: none;
+    }
+    .container .direito {
+        width: 100%;
+    }
+    .container .direito .card .meio input {
+        width: 90%;
+    }
+    .container .direito .card .topo h1{
+        font-size: 50px;
+    }
+}
